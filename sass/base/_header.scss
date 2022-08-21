@@ -1,0 +1,33 @@
+.intro{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(360deg, rgba(217, 217, 217, 0.8) 32%, rgba(217, 217, 217, 0) 100%),
+    url("../images/div-ph-1.jpg") center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.intro__inner{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    position: absolute;
+    width: 600px;
+    height: 220px;
+    left: 420px;
+    top: 167px;
+    line-height: 40px;
+
+    border: 1px solid #fff;
+}
+
+.intro__text{
+    margin: 0 auto;
+text-align: center;
+
+    & > *{
+        font-weight: 300;
+        color: #923A3A;
+    }
+}
